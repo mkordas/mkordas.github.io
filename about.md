@@ -4,7 +4,8 @@ title: About
 permalink: /about/
 ---
 
-<img style="float: right; width: 250px;" src="http://i.imgur.com/81H0zyo.jpg">
+<img style="float: right; width: 250px; margin-left: 20px;"
+ src="http://i.imgur.com/81H0zyo.jpg">
 
 I'm quality maniac with passion about Java, Groovy, JVM and fancy tools that
 help to test code in smart, fluent and expressive way. I love bringing feedback
