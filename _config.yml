@@ -2,7 +2,8 @@
 title: Michal Kordas Blog
 email: me@michalkordas.com
 description: >
-
+  Blog about Java, Groovy, JVM, IntelliJ IDEA and bringing feedback loops to the
+  micro-level.
 baseurl: ""
 url: "http://mkordas.github.io"
 twitter_username: michal_kordas
