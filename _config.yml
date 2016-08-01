@@ -7,7 +7,7 @@ description: >
 baseurl: ""
 url: "http://michalkordas.com"
 twitter_username: michal_kordas
-github_username:  mkordas
+github_username: mkordas
 
 # Build settings
 markdown: kramdown
