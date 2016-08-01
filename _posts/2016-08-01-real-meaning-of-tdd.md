@@ -12,16 +12,19 @@ idea as TDD...
 
 During interviews I like to ask simple question: How do you understand TDD?
 I'm so surprised by some of the answers...
+
 * "project has some tests"
 * "code coverage is at least 80%"
 * "tests are written during the same iteration"
 
 More educated guys notice that it's about the order:
+
 * "all tests should be written first"
 * "tests should be created after initial skeleton of application"
 
 Very few of them understand the actual essence of TDD. There's no one definition
 what it is, but I'd be more than satisfied with the following explanations:
+
 * It's a practice where all the code and entire design is driven by having a
   test first
 * It's a practice consisting of three steps that can be applied on any level of
