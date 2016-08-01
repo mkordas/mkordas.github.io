@@ -10,7 +10,6 @@ twitter_username: michal_kordas
 github_username: mkordas
 
 excerpt_separator: <!-- more -->
-highlighter: pygments
 
 # Build settings
 markdown: kramdown
