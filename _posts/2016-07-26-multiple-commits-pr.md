@@ -9,7 +9,7 @@ date: 2016-07-26
 Many projects have adopted *only one commit per pull request* rule. It makes commit history much more [clear and readable](http://programmers.stackexchange.com/questions/263164/why-squash-git-commits-for-pull-requests).
 Generally I agree with it, but I'd like to propose an exception from this rule.
 
-<!-- more -->
+<!--more-->
 
 For me couple of commits may significantly simplify review and make history even clearer in **some specific cases**, especially
 for non-trivial 
