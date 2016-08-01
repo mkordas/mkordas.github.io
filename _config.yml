@@ -9,5 +9,7 @@ url: "http://michalkordas.com"
 twitter_username: michal_kordas
 github_username: mkordas
 
+highlighter: pygments
+
 # Build settings
 markdown: kramdown
