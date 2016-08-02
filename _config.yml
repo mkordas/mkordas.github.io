@@ -1,5 +1,6 @@
 # Site settings
 title: Michal Kordas Blog
+author: Michal Kordas
 email: me@michalkordas.com
 description: >
   Blog about Java, Groovy, JVM, IntelliJ IDEA and bringing feedback loops to the
