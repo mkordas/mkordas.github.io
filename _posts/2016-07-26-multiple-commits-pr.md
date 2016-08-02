@@ -17,7 +17,7 @@ bugfixes or features that should be verified on system/integration level.
  
 Squashed commits:
 
-1. Test, bugfix and refactoring mixed together
+1. Test, bugfix and refactoring **mixed together**
 
 Sample solution with 3 commits:
 
