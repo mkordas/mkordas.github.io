@@ -11,6 +11,8 @@ Generally I agree with it, but I'd like to propose an exception from this rule.
 
 <!--more-->
 
+![](/images/rails.jpg){:class="img-responsive"}
+
 For me couple of commits may significantly simplify review and make history even clearer in **some specific cases**, especially
 for non-trivial 
 bugfixes or features that should be verified on system/integration level.
