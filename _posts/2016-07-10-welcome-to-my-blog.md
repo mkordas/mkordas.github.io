@@ -4,6 +4,8 @@ title:  "Welcome to my Blog!"
 date:   2016-07-10
 ---
 
+![](/images/dew-at-down.jpg){:class="img-responsive"}
+
 <!--more-->
 
 Recently I was travelling by train with [Sebastian
