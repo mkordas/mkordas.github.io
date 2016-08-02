@@ -3,6 +3,9 @@ layout: post
 title:  "Welcome to my Blog!"
 date:   2016-07-10
 ---
+
+<!--more-->
+
 Recently I was travelling by train with [Sebastian
 Malaca](http://letstalkaboutjava.blogspot.com) to
 [Confitura](http://2016.confitura.pl) conference and he asked me: where is my

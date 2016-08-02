@@ -10,6 +10,8 @@ As with majority of conceptions in software development, their original meaning
 gets obscured pretty fast. I have impression that it happened even to as simple
 idea as TDD...
 
+<!--more-->
+
 During interviews I like to ask simple question: **How do you understand TDD?**
 I'm so surprised by some of the answers...
 

@@ -17,6 +17,8 @@ they press `CTRL` + `SPACE` to complete each word separately, which gives about
 Let me teach you the trick that would save you thousands of keypresses in your
 life. Just type `new ArLi`, press `CTRL` + `ALT` + `V` and... you are done!
 
+<!--more-->
+
 If you try to use it for a first time, you will notice that variable is not
 `final`. To add it, just press `ALT` + `F`. You may also get `ArrayList` type,
 which is obviously bad thing ("Code to the interface!"). Fixing it is also

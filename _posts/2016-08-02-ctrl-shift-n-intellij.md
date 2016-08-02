@@ -11,6 +11,8 @@ IntelliJ IDEA has many useful navigation features. Every competent user already
  press `CTLR` + `SHIFT` + `N` and type file name or its part. Nevertheless,
  we usually use this functionality in very limited way.
 
+<!--more-->
+
 First of all, we don't need to type full file name. If we search for
  `ProblemFactory`, the following searches will work:
 
