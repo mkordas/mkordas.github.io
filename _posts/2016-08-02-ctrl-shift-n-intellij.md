@@ -13,6 +13,8 @@ IntelliJ IDEA has many useful navigation features. Every competent user already
 
 <!--more-->
 
+![](/images/spinning-stars.jpg){:class="img-responsive"}
+
 First of all, we don't need to type full file name. If we search for
  `ProblemFactory`, the following searches will work:
 
