@@ -16,6 +16,7 @@ across entire classloader. This means that if we invoke e.g. `new int[0]` more
 
 IntelliJ IDEA has even inspection that searches for such unnecessary object
 creation. It's located in `Java | Memory issues | Zero-length array allocation`:
+
 > Reports on allocations of arrays with known lengths of zero. Since array
  lengths in Java are non-modifiable, it is almost always possible to share
  zero-length arrays, rather than repeatedly allocating new zero-length arrays.
