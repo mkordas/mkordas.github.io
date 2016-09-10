@@ -29,8 +29,10 @@ creation. It's located in `Java | Memory issues | Zero-length array allocation`:
 
 Instead of creating such constants on demand in various location there is
 pretty-much industry standard how to obtain them. Very convenient set of empty
-arrays is located in `org.apache.commons.lang3.ArrayUtils`. Note that there
-is also old `org.apache.commons.lang.ArrayUtils`, but it's the old API!
+arrays is located in `org.apache.commons.lang3.ArrayUtils`.
+
+Note that there is also old `org.apache.commons.lang.ArrayUtils`, but it's the
+old API and using it usually is just a mistake or an oversight.
 
 The initial version of them exists since
 [2002](https://github.com/apache/commons-lang/commit/d31f3d) and then they were
