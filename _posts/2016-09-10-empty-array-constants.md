@@ -62,6 +62,8 @@ public static final char[] EMPTY_CHAR_ARRAY = new char[0];
 public static final Character[] EMPTY_CHARACTER_OBJECT_ARRAY = new Character[0];
 {% endhighlight %}
 
+## Use Them!
+
 Feel free to use them in all your apps that already include `commons-lang3` as
 dependency. However, you will still need to cache empty arrays for your custom
 types, e.g.:
