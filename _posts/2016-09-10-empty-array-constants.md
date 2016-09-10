@@ -1,4 +1,4 @@
-``---
+---
 layout: post
 title: "Empty Array Constants"
 category: java
