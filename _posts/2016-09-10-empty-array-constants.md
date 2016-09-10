@@ -32,10 +32,10 @@ pretty-much industry standard how to obtain them. Very convenient set of empty
 arrays is located in `org.apache.commons.lang3.ArrayUtils`. Note that there
 is also old `org.apache.commons.lang.ArrayUtils`, but it's the old API!
 
-The initial version of them exists since [2002]
-(https://github.com/apache/commons-lang/commit/d31f3d) and then they were
-updated significantly only once in [2003]
-(https://github.com/apache/commons-lang/commit/2878a4) adding empty arrays
+The initial version of them exists since
+[2002](https://github.com/apache/commons-lang/commit/d31f3d) and then they were
+updated significantly only once in
+[2003](https://github.com/apache/commons-lang/commit/2878a4) adding empty arrays
 for wrapper types. As you see this implementation is as immutable as themselves.
 
 The full list is as follows:
