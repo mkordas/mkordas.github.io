@@ -35,10 +35,10 @@ Checkstyle detects such code with [`OperatorWrap`](http://checkstyle.sourceforge
 
 Actually, it's very easy to fix these violations with good old regex search and replace. Just search for
 
-    [:space:]\+\s*\n(\s+)
+    \+\s*\n(\s+)
   
-and replace these occurences with
+and replace these occurences with (note space at the end):
 
-    \n$1+[:space:]
-  
+    \n$1+ 
+
 Hopefully it will be working for you as good as it works for me.
