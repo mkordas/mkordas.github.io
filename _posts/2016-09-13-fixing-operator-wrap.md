@@ -7,7 +7,7 @@ date: 2016-09-13
 ---
 
 According to [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html), section
-[Where to break](https://google.github.io/styleguide/javaguide.html#s4.5.1-line-wrapping-where-to-break) all lines
+[Where to break](https://google.github.io/styleguide/javaguide.html#s4.5.1-line-wrapping-where-to-break), all lines
 should be broken before non-assignments operators. 
 
 Unfortunately, IntelliJ IDEA by default leaves the operators at the end of line...
