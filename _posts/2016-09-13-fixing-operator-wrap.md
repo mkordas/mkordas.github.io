@@ -14,6 +14,7 @@ Unfortunately, IntelliJ IDEA by default leaves the operators at the end of line.
 
 It happens when generating `toString` method using `String concat (+)` template
 
+{% highlight java %}
     @Override
     public String toString() {
         return "OperatorWrap{" +
@@ -21,15 +22,20 @@ It happens when generating `toString` method using `String concat (+)` template
                 ", wrap='" + wrap + '\'' +
                 '}';
     }
-    
+{% endhighlight %}
+
 And also when breaking a string, e.g. with:
 
+{% highlight java %}
     return "OperatorWrap";
-    
+{% endhighlight %}    
+
 when enter is pressed after `Operator`it becomes:
 
+{% highlight java %}
     return "Operator" +
         "Wrap";
+{% endhighlight %}
 
 Checkstyle detects such code with [`OperatorWrap`](http://checkstyle.sourceforge.net/config_whitespace.html#OperatorWrap) check. All good, build is going to fail, but how to fix these violations efficiently? Sadly, IDEA does not offer any quick-fix intention for that.
 
