@@ -9,14 +9,14 @@ date: 2016-07-26
 Many projects have adopted *only one commit per pull request* rule. It makes commit history much more [clear and readable](http://programmers.stackexchange.com/questions/263164/why-squash-git-commits-for-pull-requests).
 Generally I agree with it, but I'd like to propose an exception from this rule.
 
-<!--more-->
-
 ![](/images/rails.jpg){:class="img-responsive"}
 
+<!--more-->
+
 For me couple of commits may significantly simplify review and make history even clearer in **some specific cases**, especially
-for non-trivial 
+for non-trivial
 bugfixes or features that should be verified on system/integration level.
- 
+
 Squashed commits:
 
 1. Test, bugfix and refactoring **mixed together**
@@ -32,7 +32,7 @@ Sample solution with 3 commits:
  It is **too easy to create test that passes always**, even if it was failing initially. Having commit with just a test can be an
  **evidence** for a reviewer that throughout changes to PR this test is still failing, and enables to easily **verify assertion/error
  message** (which is also very important!).
- 
+
 Moreover, commit with just a bugfix makes immediately obvious what was the real functional problem. It is not lost in between
 refactoring or other not-related changes and can be reviewed separately with a greater care.
 
