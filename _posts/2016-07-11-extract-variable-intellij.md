@@ -24,6 +24,11 @@ If you try to use it for a first time, you will notice that variable is not
 which is obviously bad thing ("Code to the interface!"). Fixing it is also
 simple. Press `SHIFT` + `TAB`, and choose `List` from the list.
 
+There's also one more enhancement you can apply. Maybe you've noticed that
+typing `new ArLi` works just fine, but it doesn't for `new Arli` or `new arli`.
+To include these cases find with `CTRL` + `ALT` + `A` a setting called
+`Case sensitive completion:` and set it to `None`.
+
 Want more excitement? This trick works also for:
 
 - declaring fields - `CTRL` + `ALT` + `F`
