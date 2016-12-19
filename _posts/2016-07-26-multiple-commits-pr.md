@@ -6,7 +6,14 @@ tags: [pull request, github]
 date: 2016-07-26
 ---
 
-Many projects have adopted *only one commit per pull request* rule. It makes commit history much more [clear and readable](http://programmers.stackexchange.com/questions/263164/why-squash-git-commits-for-pull-requests).
+We can say that code that is not commited simply doesn't exist. It is not visible to anyone besides you and also Git doesn't take care of uncommited files. It's so important to commit early and commit often.
+
+However, many projects have adopted *only one commit per pull request* rule and they require to squash commits before merging. Here are the reasons:
+- commit history is clearer, shorter and more readable
+ - serves as documentation
+ - explains WHYs which is more important than how exactly change was done and what steps were taken
+- repository is leaner and takes less space
+- single responsibility principle
 Generally I agree with it, but I'd like to propose an exception from this rule.
 
 ![](/images/rails.jpg){:class="img-responsive"}
