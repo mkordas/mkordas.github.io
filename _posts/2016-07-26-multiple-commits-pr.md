@@ -7,13 +7,14 @@ date: 2016-07-26
 ---
 
 We can say that code that is not commited simply doesn't exist. It is not visible to anyone besides you and also Git doesn't take care of uncommited files and they may get lost.
-It's easy to go back when anything fails. We publish changes on regular basis and receive early feedback about our ideas and architecture.
-It's so important to commit early and commit often.
+It's easy to go back when anything fails. We share changes on regular basis and receive early feedback about our ideas and architecture. Other people find it easier to integrate and we can avoid merge conflicts.
+It's so important to commit early and commit often. Actually it's one of the continuous integration principles.
 
 However, many projects have adopted *only one commit per pull request* rule and they require to squash commits before merging. Here are the reasons:
 - commit history is clearer, shorter and more readable
  - serves as documentation
  - explains WHYs which is more important than how exactly change was done and what steps were taken
+ - easier to browse from user interfaces without resorting to advanced techniques involving command-line
 - repository is leaner and takes less space
 - single responsibility principle
 Generally I agree with it, but I'd like to propose an exception from this rule.
