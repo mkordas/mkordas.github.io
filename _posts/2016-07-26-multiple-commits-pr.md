@@ -8,11 +8,16 @@ date: 2016-07-26
 
 When a code that you wrote is not committed to a repository it effectively does not exist, as it is not visible to anyone besides you.
 Moreover, Git doesn't take care of uncommited files and they may simply get lost.
-If we commit early and often it's easy to go back to previous state when anything fails.
-We can share changes on regular basis and receive feedback about our ideas and architecture. Other people find it easier to integrate and we can avoid merge conflicts.
-It's so important to commit early and commit often. Actually it's one of the continuous integration principles.
+If we commit often it's easy to go back to previous state when anything fails.
+We can share changes on regular basis and receive timely feedback about our ideas and architecture of a solution.
+Other people know what is going on. There are less merge conflicts and duplicated work.
+Exact status is shared even before stand-up meetings.
+All of the above are the basic continuous integration principles and we cannot say we have proper CI when people have uncommitted changes hanging out for days.
 
-However, many projects have adopted *only one commit per pull request* rule and they require to squash commits before merging. Here are the reasons:
+If the rule is to **commit early and often** we quickly end up with dozens of commits for relatively easy changes in our GitHub pull requests. 
+It enables us to track the progress, see the chosen development path and review only the new stuff that was added instead of reviewing again and again the entire contents.
+
+Perhaps in the contrary to the above, many projects have adopted **only one commit per pull request** rule and they require to squash commits before merging. Here are the reasons:
 - commit history is clearer, shorter and more readable
  - serves as documentation
  - explains WHYs which is more important than how exactly change was done and what steps were taken
