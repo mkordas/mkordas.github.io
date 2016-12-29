@@ -6,7 +6,7 @@ tags: [pull request, github]
 date: 2016-07-26
 ---
 
-When a code that you wrote is not committed to a repository it effectively does not exist, as it is not visible to anyone besides you.
+When a code that you wrote is not committed to a repository, it effectively does not exist, as it is not visible to anyone besides you.
 Moreover, Git doesn't take care of uncommitted files and they may simply get lost.
 If we commit often it's easy to go back to previous state when anything fails.
 We can share changes on regular basis and receive timely feedback about our ideas and architecture of a solution.
