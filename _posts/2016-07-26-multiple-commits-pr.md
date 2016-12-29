@@ -6,8 +6,10 @@ tags: [pull request, github]
 date: 2016-07-26
 ---
 
-We can say that code that is not commited simply doesn't exist. It is not visible to anyone besides you and also Git doesn't take care of uncommited files and they may get lost.
-It's easy to go back when anything fails. We share changes on regular basis and receive early feedback about our ideas and architecture. Other people find it easier to integrate and we can avoid merge conflicts.
+When a code that you wrote is not committed to a repository it effectively does not exist, as it is not visible to anyone besides you.
+Moreover, Git doesn't take care of uncommited files and they may simply get lost.
+If we commit early and often it's easy to go back to previous state when anything fails.
+We can share changes on regular basis and receive feedback about our ideas and architecture. Other people find it easier to integrate and we can avoid merge conflicts.
 It's so important to commit early and commit often. Actually it's one of the continuous integration principles.
 
 However, many projects have adopted *only one commit per pull request* rule and they require to squash commits before merging. Here are the reasons:
